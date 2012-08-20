@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="demo-app-ear-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="demo-app-war-jsf-1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/demo-app-war-jsf/demo-app-war-jsf">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="demo-app-war-wicket-1.0-SNAPSHOT.war" deploy-path="/" handle="module:/resource/demo-app-war-wicket/demo-app-war-wicket">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="demo-app-ejb-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/demo-app-ejb/demo-app-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
